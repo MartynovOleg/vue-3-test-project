@@ -4,14 +4,19 @@
     "paths": {
     },
     "noImplicitThis": true,
+    "skipLibCheck": true,
     "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
+    "module": "esnext",
+    "target": "esnext",
     "allowJs": true,
+    "jsx": "preserve",
     "allowSyntheticDefaultImports" : true,
     "experimentalDecorators": true,
     "esModuleInterop" : true,
     "moduleResolution": "node"
   },
+  "lib": [
+    "esnext"
+  ],
   "exclude": ["node_modules"]
 }
